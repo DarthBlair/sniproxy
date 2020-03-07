@@ -10,6 +10,4 @@ COPY overlay/ /
 
 RUN	chmod 755 /scripts/*
 
-EXPOSE 443
-
 ENTRYPOINT ["/scripts/bootstrap.sh"]
